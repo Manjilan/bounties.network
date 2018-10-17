@@ -1,0 +1,38 @@
+
+.header{
+  height: 450px;
+}
+#bounty p{
+  color: white;
+}
+#bounty{
+  background: linear-gradient(to right, #5332C0 , #5350F3);
+  padding: 2% 5%;
+  border-radius: 3px;
+}
+#intro .row{
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 0;
+}
+#intro{
+  margin: 100px 0;
+  max-width: 100%;
+  padding: 0;
+}
+#intro h1,#building-blocks h5{
+  color: #5331BE;
+}
+#intro h1{
+  text-align: center;
+}
+#building-blocks{
+  background-color: white;
+  padding: 0;
+}
+#bottom{
+  border-top: 2px solid #E8E8E8;
+}
+#building-blocks .page-container .row{
+  margin-bottom: 50px;
+}
