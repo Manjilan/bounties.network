@@ -1,4 +1,10 @@
-
+@font-face{
+  font-family: poppins;
+  src: url(./fonts/poppins-regular.ttf);
+}
+body{
+  font-family: poppins;
+}
 .header{
   height: 450px;
 }
@@ -20,19 +26,29 @@
   max-width: 100%;
   padding: 0;
 }
-#intro h1,#building-blocks h5{
+#intro h1,#steps h5{
   color: #5331BE;
 }
 #intro h1{
   text-align: center;
 }
-#building-blocks{
+#steps{
   background-color: white;
   padding: 0;
 }
 #bottom{
   border-top: 2px solid #E8E8E8;
 }
-#building-blocks .page-container .row{
+#steps .page-container .row{
   margin-bottom: 50px;
+}
+@media screen and (max-width: 1215px ){
+  .header{
+    height: 250px;
+  }
+}
+@media screen and (max-width: 960px ){
+  .header{
+    height: 200px;
+  }
 }
